@@ -10,9 +10,6 @@ body {
     line-height: 1.5;
 }
 
-
-/* Navbar */
-
 .navbar {
     display: flex;
 
@@ -42,7 +39,6 @@ nav a {
 }
 
 
-/* Hero */
 
 .hero {
     text-align: center;
@@ -104,8 +100,6 @@ nav a {
 }
 
 
-/* Footer */
-
 footer {
     text-align: center;
 
@@ -115,7 +109,6 @@ footer {
 }
 
 
-/* Mobile */
 
 @media (max-width: 768px) {
 
