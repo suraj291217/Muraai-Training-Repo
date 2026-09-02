@@ -19,9 +19,7 @@ const employees = [
         salary: 65000
     }
 ];
-*/
 
-/*
 // MAP
 const salaries = employees.map(employee => employee.salary);
 console.log(salaries);
@@ -129,4 +127,65 @@ let roles = ["admin", "user", "manager"];
 if(roles.includes("admin")) {
     console.log("Admin access");
 }
+
+// PUSH
+let fruits = ["Apple", "Banana"];
+fruits.push("Mango");
+console.log(fruits);
+
+// POP
+let fruits = ["Apple", "Banana", "Mango"];
+fruits.pop();
+console.log(fruits); 
+
+// UNSHIFT
+let fruits = ["Banana", "Mango"];
+fruits.unshift("Apple");
+console.log(fruits);
+
+// SHIFT
+let fruits = ["Apple", "Banana", "Mango"];
+fruits.shift();
+console.log(fruits);
+
+// SPLICE(1)
+let fruits = ["Apple", "Banana", "Mango", "Orange"];
+fruits.splice(1, 1);
+console.log(fruits);
+
+// SPLICE(2)
+let fruits = ["Apple", "Mango"];
+fruits.splice(1, 0, "Banana");
+console.log(fruits);
+
+// SPLICE(3)
+let fruits = ["Apple", "Banana", "Mango"];
+fruits.splice(1, 1, "Orange");
+console.log(fruits);
+
+// SLICE
+let fruits = ["Apple", "Banana", "Mango", "Orange"];
+let result = fruits.slice(1, 3);
+console.log(result);
+
+// JOIN
+let fruits = ["Apple", "Banana", "Mango"];
+let result = fruits.join(", ");
+console.log(result);
+
+// CONCAT
+let fruits1 = ["Apple", "Banana"];
+let fruits2 = ["Mango", "Orange"];
+let result = fruits1.concat(fruits2);
+console.log(result);
+
+// SORT
+let names = ["Suraj", "Amit", "Rahul"];
+names.sort();
+console.log(names);
+
+// REVERSE
+let numbers = [1, 2, 3, 4, 5];
+numbers.reverse();
+console.log(numbers);
 */
