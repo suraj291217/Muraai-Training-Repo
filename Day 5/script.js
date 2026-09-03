@@ -189,3 +189,10 @@ let numbers = [1, 2, 3, 4, 5];
 numbers.reverse();
 console.log(numbers);
 */
+// const salaries = employees.map(employee => employee.salary);
+// console.log(salaries);
+const invoices = [   { invoiceNo: "INV001", amount: 15000, status: "PAID" },   { invoiceNo: "INV002", amount: 25000, status: "PENDING" },   { invoiceNo: "INV003", amount: 10000, status: "PAID" },   { invoiceNo: "INV004", amount: 30000, status: "REJECTED" } ];
+
+invoices.forEach(invoice => {
+    console.log(`${invoice.invoiceNo} - $${invoice.amount} - ${invoice.status}`);
+})
