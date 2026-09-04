@@ -1,11 +1,6 @@
-/*
-let employee = {
-    id: 101,
-    name: "Rahul",
-    department: "IT",
-    salary: 55000
-};
 
+
+/*
 // ACCESSING(1) 
 console.log(employee.name);
 console.log(employee.salary);   
@@ -135,8 +130,25 @@ console.log(salary);
 // console.log(Object.values(user));
 // console.log(Object.entries(user));
 
+// ES MODULES
+// created seperate files
 
- 
+let employee = {
+    id: 101,
+    name: "Rahul",
+    department: "IT",
+    salary: 55000
+};
+
+let property = "experience";
+let value = "3 years";
+
+employee[property]=value;
+
+console.log(employee);
+
+
+
 
 
 

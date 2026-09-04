@@ -1,3 +1,3 @@
-import {add,sub} from "./math.js"
-console.log(add(10,20));
-console.log(sub(30,10));
+import getUser from "./user.js"
+
+console.log(getUser());
